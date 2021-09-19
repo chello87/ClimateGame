@@ -1,14 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class RotatePlanet : MonoBehaviour
-{
-    [SerializeField] private GameObject _globe = null;
+public class RotatePlanet : MonoBehaviour {
+    [SerializeField] private GameObject _globe;
     
-    // Update is called once per frame
-    void Update()
-    {
+    void Update() {
         float xInput = Input.GetAxis("Horizontal");
         float yInput = Input.GetAxis("Vertical");
         transform.Rotate(0, yInput, 0, Space.World);

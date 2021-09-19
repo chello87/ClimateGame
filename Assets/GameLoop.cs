@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class GameLoop : MonoBehaviour {
@@ -51,6 +49,5 @@ public class GameLoop : MonoBehaviour {
 
         //we should be increasing temp constantly
         //and when ending the year apply the acceleration
-
     }
 }
